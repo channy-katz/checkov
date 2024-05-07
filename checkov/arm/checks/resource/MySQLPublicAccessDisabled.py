@@ -17,7 +17,7 @@ class MySQLPublicAccessDisabled(BaseResourceValueCheck):
 
     def get_expected_value(self) -> str:
         """
-        Returns the default expected value, governed by provider best practices
+        Returns the default expected value,governed by provider best practices
         """
         return "False"
 
