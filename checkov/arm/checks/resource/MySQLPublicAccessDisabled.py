@@ -23,3 +23,4 @@ class MySQLPublicAccessDisabled(BaseResourceValueCheck):
 
 
 check = MySQLPublicAccessDisabled()
+
